@@ -1,5 +1,7 @@
 package com.example
 
+import java.io.File
+
 import akka.actor.Actor
 import spray.routing._
 import spray.http._
@@ -50,6 +52,13 @@ trait MyService extends HttpService {
               </body>
             </html>
           }
+        }
+      }
+    } ~
+    path("image") {
+      get {
+        respondWithMediaType(`image/png`) {
+          getFromFile(new File("src/main/resources/android.png"))
         }
       }
     }
