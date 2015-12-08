@@ -18,5 +18,6 @@ libraryDependencies ++= {
     "org.specs2"          %%  "specs2-core"   % "2.3.11" % "test"
   )
 }
+libraryDependencies += "io.spray" %%  "spray-json" % "1.3.2"
 
 Revolver.settings
