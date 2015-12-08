@@ -9,6 +9,10 @@ returns:
            "password": "123pass"
         }
 
+[GET] http://127.0.0.1:8080/image
+
+![image](https://raw.githubusercontent.com/kosiara/spray-template/on_spray-can_1.3_scala-2.11/src/main/resources/android.png) 
+
 ## _spray_ Template Project
 
 This projects provides a starting point for your own _spray-routing_ endeavors.
