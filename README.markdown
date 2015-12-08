@@ -1,3 +1,14 @@
+## Changes (diff: http://github.com/spray/spray-template )
+
+[GET] http://127.0.0.1:8080/json
+
+returns:
+
+        {
+           "username": "ala",
+           "password": "123pass"
+        }
+
 ## _spray_ Template Project
 
 This projects provides a starting point for your own _spray-routing_ endeavors.
